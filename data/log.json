@@ -1,0 +1,175 @@
+//Loading function
+//START RequestId: 467f54d6-934f-4c44-a63a-629fbe34519d Version: $LATEST
+//Received event: */
+{
+"Records": [
+{
+"eventID": "2ec8c60a1e60cdcf610821b1d58e0eb5", 
+"eventVersion": "1.1", 
+"dynamodb": {
+"SequenceNumber": "1568400000000013017391906", 
+"Keys": {
+"movieid": {
+"S": "3"
+}
+}, 
+"SizeBytes": 526, 
+"NewImage": {
+"info": {
+"M": {
+"plot": {
+"S": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+}, 
+"genres": {
+"L": [
+{
+"S": "Action"
+}, 
+{
+"S": "Adventure"
+}, 
+{
+"S": "Sci-Fi"
+}, 
+{
+"S": "Thriller"
+}
+]
+}, 
+"release_date": {
+"S": "2013-11-11T00:00:00Z"
+}, 
+"rank": {
+"N": "4"
+}, 
+"running_time_secs": {
+"N": "8760"
+}, 
+"directors": {
+"L": [
+{
+"S": "Francis Lawrence"
+}
+]
+}, 
+"actors": {
+"L": [
+{
+"S": "Jennifer Lawrence"
+}, 
+{
+"S": "Josh Hutcherson"
+}, 
+{
+"S": "Liam Hemsworth"
+}
+]
+}, 
+"image_url": {
+"S": "http://ia.media-imdb.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_SX400_.jpg"
+}
+}
+}, 
+"title": {
+"S": "The Hunger Games: Catching Fire"
+}, 
+"movieid": {
+"S": "3"
+}, 
+"year": {
+"N": "2013"
+}
+}, 
+"ApproximateCreationDateTime": 1500347040.0, 
+"StreamViewType": "NEW_IMAGE"
+}, 
+"awsRegion": "us-east-1", 
+"eventName": "INSERT", 
+"eventSourceARN": "arn:aws:dynamodb:us-east-1:746005753527:table/movies/stream/2017-07-17T16:52:33.771", 
+"eventSource": "aws:dynamodb"
+}
+]
+}
+2ec8c60a1e60cdcf610821b1d58e0eb5
+INSERT
+DynamoDB Record: {
+"SequenceNumber": "1568400000000013017391906", 
+"Keys": {
+"movieid": {
+"S": "3"
+}
+}, 
+"SizeBytes": 526, 
+"NewImage": {
+"info": {
+"M": {
+"plot": {
+"S": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+}, 
+"genres": {
+"L": [
+{
+"S": "Action"
+}, 
+{
+"S": "Adventure"
+}, 
+{
+"S": "Sci-Fi"
+}, 
+{
+"S": "Thriller"
+}
+]
+}, 
+"release_date": {
+"S": "2013-11-11T00:00:00Z"
+}, 
+"rank": {
+"N": "4"
+}, 
+"running_time_secs": {
+"N": "8760"
+}, 
+"directors": {
+"L": [
+{
+"S": "Francis Lawrence"
+}
+]
+}, 
+"actors": {
+"L": [
+{
+"S": "Jennifer Lawrence"
+}, 
+{
+"S": "Josh Hutcherson"
+}, 
+{
+"S": "Liam Hemsworth"
+}
+]
+}, 
+"image_url": {
+"S": "http://ia.media-imdb.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_SX400_.jpg"
+}
+}
+}, 
+"title": {
+"S": "The Hunger Games: Catching Fire"
+}, 
+"movieid": {
+"S": "3"
+}, 
+"year": {
+"N": "2013"
+}
+}, 
+"ApproximateCreationDateTime": 1500347040.0, 
+"StreamViewType": "NEW_IMAGE"
+}
+/*
+END RequestId: 467f54d6-934f-4c44-a63a-629fbe34519d
+REPORT RequestId: 467f54d6-934f-4c44-a63a-629fbe34519d	Duration: 0.92 ms	Billed Duration: 100 ms Memory Size: 128 MB	Max Memory Used: 18 MB	
+*/
