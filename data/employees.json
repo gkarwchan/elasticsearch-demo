@@ -1,6 +1,6 @@
 
 [
-    {       /// id = 2
+    {       // id = 2
           "first_name": "Jane",
           "last_name": "Smith",
           "age": 32,
@@ -9,7 +9,7 @@
             "music"
           ]
     },
-    {     /// id = 1
+    {     // id = 1
           "first_name": "John",
           "last_name": "Smith",
           "age": 25,
@@ -19,7 +19,7 @@
             "music"
           ]
     },
-    {       /// id = 3
+    {       // id = 3
           "first_name": "Douglas",
           "last_name": "Fir",
           "age": 35,
