@@ -1,0 +1,7 @@
+https://search-contacts-roa7awyjn3ddfpw2nxkwsqitja.us-east-1.es.amazonaws.com
+
+/* ---- lite search ------ */
+/company/employee/_search?q=last_name:smith
+
+/* ---- lite full text search ------ */
+/company/employee/_search?q=forestry

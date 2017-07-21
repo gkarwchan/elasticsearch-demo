@@ -1,0 +1,9 @@
+{
+    "aggs":	{
+        "all_interests":{
+            "terms":{
+                "field": "interests"
+                }
+        }
+    }
+}

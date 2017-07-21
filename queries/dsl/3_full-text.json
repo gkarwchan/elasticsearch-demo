@@ -1,0 +1,12 @@
+/*  ************** 
+    talk about score 
+****************** */
+
+{
+    "query" : {
+        "match" : {
+            "about" : "rock climbing"
+        }
+    }
+}
+

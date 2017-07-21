@@ -1,0 +1,12 @@
+{
+    "query" : {
+        "match_phrase" : {
+            "about" : "rock climbing"   // like double quotes in google
+        }
+    },
+    "highlight": { 
+        "fields": { "about"	:	{} }
+    }
+}
+
+
