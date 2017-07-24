@@ -1,0 +1,11 @@
+//POST /movies/movie/_search
+
+{
+    "query" : {
+        "match" : {
+            "title" : "gladiator"
+        }
+    }
+}
+
+//select * from movies wjere title like '%gladiator%'

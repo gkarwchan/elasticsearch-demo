@@ -1,0 +1,12 @@
+// trick about where
+//POST /movies/movie/_search
+
+{
+    "query" : {
+        "match" : {
+            "title" : "home alone"
+        }
+    }
+}
+
+//select * from movies where title like '%home%' or title like '%alone%'

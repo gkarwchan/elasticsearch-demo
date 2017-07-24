@@ -1,0 +1,16 @@
+// multi match
+// search posts for words either in body or title
+{
+    "query" : {
+        "multi_match" : {
+            "fields" : ["post_title", "post_body"],
+            "query": "elastick sql"
+        }
+    }
+}
+
+/*select * from posts 
+where post_title like '%elastic%"
+or post_title like '%sql%"
+or post_body like '%elastic%"
+or post_body like '%sql%" */

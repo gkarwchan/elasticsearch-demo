@@ -1,8 +1,8 @@
 {
     "aggs": {
-        "balance_by_age" : {
+        "by_state" : {
             "terms": {
-                "field": "age"
+                "field": "state"
             },
             "aggs": {
                 "balance_avg": {
@@ -14,3 +14,7 @@
         }
     }
 }
+
+/* Select state, avg(balance)
+from accounts 
+group by state */

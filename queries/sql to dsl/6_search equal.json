@@ -1,0 +1,12 @@
+// search equality
+// 
+{
+    "query" : {
+        "term" : {
+            "title" : "gladiator"
+        }
+    }
+}
+
+/*select * from movies 
+where title = "gladiator"*/

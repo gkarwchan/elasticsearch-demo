@@ -1,0 +1,14 @@
+// Sloppy search
+// search for Pirates of the caribbean: the curse of the black pearl
+{
+    "query" : {
+        "match_phrase" : {
+            "title" : {
+                "query": "curse black",
+                "slop": 1
+            }
+        }
+    }
+}
+
+//select * from movies where title like '%curse % black%'

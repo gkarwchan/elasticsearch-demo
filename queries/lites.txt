@@ -3,5 +3,19 @@ https://search-contacts-roa7awyjn3ddfpw2nxkwsqitja.us-east-1.es.amazonaws.com
 /* ---- lite search ------ */
 /company/employee/_search?q=last_name:smith
 
+/* ---- lite with sort ------ */
+/company/employee/_search?sort=age
+
+
+/* ---- lite with paging ------ */
+/company/employee/_search?size=1&from=1
+size=0 (exist or not)
+
 /* ---- lite full text search ------ */
-/company/employee/_search?q=forestry
+/bank/account/_search?q=Nicholson
+
+/* ---- search many indecies, types ------ */
+/company,movies/_search?q=forestry
+/logstash-2015*/_search?q=forestry
+/_all/_search?q=forestry
+

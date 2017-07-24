@@ -1,0 +1,5 @@
+{ 
+    "aggs":{ 
+        "cities":{"cardinality":{"field":"city"}} 
+    } 
+}

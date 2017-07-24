@@ -1,0 +1,15 @@
+// search all fields
+// 
+{
+    "query" : {
+        "match" : {
+            "_all" : "4034556789"
+        }
+    }
+}
+
+/*select * from accounts 
+where first_name like '%4034556789%"
+or last_name like '%4034556789%"
+or phone_number like '%4034556789%"
+or ....*/

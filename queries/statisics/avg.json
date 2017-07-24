@@ -1,0 +1,5 @@
+{ 
+    "aggs":{ 
+        "avg_balance":{"avg":{"field":"balance"}} 
+    } 
+}
