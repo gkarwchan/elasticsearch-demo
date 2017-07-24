@@ -5,3 +5,5 @@
         }
     }
 }
+
+// select * from account where last_name like '%Smith%';
